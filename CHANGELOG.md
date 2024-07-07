@@ -6,6 +6,37 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.0 (2024-07-07)
+
+
+### Features
+
+* add filter function to skip tracing based on the request. ([a064d40](https://github.com/kitabisa/otelchi/commit/a064d4089f463d2fb89d1383190ba0249f816b2d))
+* add multiple filters in WithFilter option ([3292e4d](https://github.com/kitabisa/otelchi/commit/3292e4da065d4ab9f83ea388c135c28bfc82eac9))
+* add trace id to response header ([c65058a](https://github.com/kitabisa/otelchi/commit/c65058a69a0248e7ec92251c94341fb7bb2f6a6a))
+* add WithPublicEndpoint & WithPublicEndpointFn option to config.go; ([64f2d2d](https://github.com/kitabisa/otelchi/commit/64f2d2da298f53e46df859183ce5a2c0c12a742e))
+* added traceID on context ([59aee53](https://github.com/kitabisa/otelchi/commit/59aee539b17c9f49435ecb8f11d7c4f1fec0535b))
+* adjust example for version 0.7 ([be5af93](https://github.com/kitabisa/otelchi/commit/be5af93d274c18ebb5788c161f1ec7b7bb612753))
+* finish implement publicEndpointFn in middleware.go; ([b70e4bf](https://github.com/kitabisa/otelchi/commit/b70e4bf4aa67893aa664b67cf7dab4b429435222))
+* remove http.target attribute based on https://github.com/open-telemetry/opentelemetry-go/blob/v1.14.0/semconv/internal/v2/http.go#L160-L165; adjust tests accordingly; ([e88a9d7](https://github.com/kitabisa/otelchi/commit/e88a9d7fffb06b71b66be83f5f97ad64ef61d527))
+* renamed to trace-id ([7b7af22](https://github.com/kitabisa/otelchi/commit/7b7af2204b69f31592fbc630f350263683af993a))
+* return 0.9.0 in Version(); ([cbbec48](https://github.com/kitabisa/otelchi/commit/cbbec48c5365de259e4db2dbc7e6bea1d60cdee3))
+* set library version to `0.7.0`; ([10d8643](https://github.com/kitabisa/otelchi/commit/10d864338bdf1b95c0808a0ee2ad3c5ec80d8713))
+* update semconv to 1.17.0 ([9172525](https://github.com/kitabisa/otelchi/commit/91725256c56af0e72fe75c3a1c4764b565c52648))
+* update semconv to v1.20, update example basic to go1.19,otel1.24,semconv1.20 ([09acd4b](https://github.com/kitabisa/otelchi/commit/09acd4b56d9ca3291378242b0a7e03a56aac760d))
+* upgrade to go1.21 and otel 1.26 ([fc85136](https://github.com/kitabisa/otelchi/commit/fc85136c59ed7172e1c4aab5b16e913917b7ff73))
+
+
+### Bug Fixes
+
+* broken empty routes in chi/v5.0.8 ([fc4a7b5](https://github.com/kitabisa/otelchi/commit/fc4a7b559ac0cebbe3b95730f1445eec2a8d2dcc))
+* implement default trace-id in response header ([38d0a62](https://github.com/kitabisa/otelchi/commit/38d0a62003766a75920d3cd939a6372162b9d8f3))
+* implement the change request ([b908ef0](https://github.com/kitabisa/otelchi/commit/b908ef01a24524c20ed1925d0c18e4300b8c4ccd))
+* issue on multiservice example ([f5b4663](https://github.com/kitabisa/otelchi/commit/f5b466395c17b98a80586604a30e7027b45c32bf))
+* set the default of status code to 200 in case of no op in http handler; ([cf20db3](https://github.com/kitabisa/otelchi/commit/cf20db350e1c241373737f699ef2233c317e42e7))
+* update `X-Trace-ID` into `X-Trace-Id` since this is the common format (e.g X-AMZN-Trace-Id); update incorrect comment for `WithTraceIDResponseHeader` option; ([97501d1](https://github.com/kitabisa/otelchi/commit/97501d182238de47222cae0d0fc3eb27c996318c))
+* use correct instrumentation version value; ([a2aab44](https://github.com/kitabisa/otelchi/commit/a2aab443cd74afdc731daa4e79a480546c8e84de))
+
 ## [1.1.0](https://github.com/kitabisa/otelchi/compare/v1.0.0...v1.1.0) (2024-07-07)
 
 
