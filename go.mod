@@ -1,10 +1,11 @@
-module github.com/riandyrn/otelchi
+module github.com/kitabisa/otelchi
 
-go 1.21
+go 1.22
 
 require (
 	github.com/felixge/httpsnoop v1.0.4
 	github.com/go-chi/chi/v5 v5.1.0
+	github.com/riandyrn/otelchi v0.9.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/otel v1.28.0
 	go.opentelemetry.io/otel/sdk v1.28.0
