@@ -25,6 +25,7 @@ const (
 // (virtual) server handling the request.
 func Middleware(serverName string, opts ...Option) func(next http.Handler) http.Handler {
 	cfg := config{}
+	
 	for _, opt := range opts {
 		opt.apply(&cfg)
 	}
