@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0](https://github.com/kitabisa/otelchi/compare/v1.2.0...v1.3.0) (2024-07-09)
+
+
+### Features
+
+* change module name ([ec40f5d](https://github.com/kitabisa/otelchi/commit/ec40f5df156d9500ad78c6a049a182a15ec3b258))
+
 ## [1.2.0](https://github.com/kitabisa/otelchi/compare/v1.1.0...v1.2.0) (2024-07-09)
 
 
