@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0](https://github.com/kitabisa/otelchi/compare/v1.1.0...v1.2.0) (2024-07-09)
+
+
+### Features
+
+* updated middleware.go ([fd00708](https://github.com/kitabisa/otelchi/commit/fd007089ca8c275828955134d30b21f4113cace0))
+
 ## [1.1.0](https://github.com/kitabisa/otelchi/compare/v1.0.0...v1.1.0) (2024-07-07)
 
 
